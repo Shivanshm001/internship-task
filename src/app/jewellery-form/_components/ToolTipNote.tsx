@@ -5,16 +5,16 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { BadgeInfoIcon } from "lucide-react";
+import { BadgeHelpIcon } from "lucide-react";
 import React from "react";
 
 export default function ToolTipNote({ note }: { note: string }) {
   return (
     <TooltipProvider>
       <Tooltip>
-        <TooltipTrigger asChild>
+        <TooltipTrigger asChild={true}>
           <Button variant={"ghost"} size={"icon"}>
-            <BadgeInfoIcon />
+            <BadgeHelpIcon />
           </Button>
         </TooltipTrigger>
         <TooltipContent>
