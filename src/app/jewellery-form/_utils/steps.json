@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "title": "Occasion",
+      "description": "What is the occasion for this jewellery?",
+      "options": ["Engagement", "Anniversary", "Birthday", "Daily-wear"],
+      "note": "This helps us tailor our recommendations to match the significance and style suitable for the event."
+    },
+    {
+      "id": 2,
+      "title": "Gift or Personal Purchase",
+      "description": "Is this a gift or a personal purchase?",
+      "note": "Understanding if the jewellery is for yourself or someone else helps us refine our suggestions based on typical gift preferences.",
+      "options": ["Gift", "Personal Purchase"]
+    },
+    {
+      "id": 3,
+      "title": "Gender",
+      "description": "Please select the gender.",
+      "note": "This allows us to recommend designs and styles that align with the typical preferences of the chosen gender.",
+      "options": ["Male", "Female", "Other"]
+    },
+    {
+      "id": 4,
+      "title": "Age Group",
+      "description": "What is the age group of the wearer?",
+      "note": "Age can significantly influence jewellery style preferences, so this helps us make more suitable recommendations.",
+      "options": ["<18", "18-25", "26-35", "36-50", "51+"]
+    },
+    {
+      "id": 5,
+      "title": "Religion",
+      "description": "Do you have any religious considerations for this jewellery? (Optional)",
+      "note": "Some religious beliefs might influence jewellery design choices, like specific symbols or restrictions.",
+      "options": ["Christianity", "Islam", "Hinduism", "Other", "None"]
+    },
+    {
+      "id": 6,
+      "title": "Type of Jewellery",
+      "description": "What type of jewellery are you interested in?",
+      "note": "This helps us narrow down the product category to provide more relevant recommendations.",
+      "options": ["Rings", "Necklaces", "Pendants", "Bracelets", "Earrings"]
+    },
+    {
+      "id": 7,
+      "title": "Budget",
+      "description": "What is your budget for this jewellery?",
+      "note": "Knowing your budget helps us suggest options that fit within your financial constraints.",
+      "options": ["<$50", "$50-$100", "$100-$200", "$200+"]
+    },
+    {
+      "id": 8,
+      "title": "Outfit Matching",
+      "description": "Would you like to match your jewellery with an outfit?",
+      "note": "Uploading an image of your outfit can help us recommend jewellery that complements your attire perfectly.",
+      "options": ["Yes", "No"],
+      "additionalAction": {
+        "ifYes": "Upload an image of your outfit for better recommendations. (Optional)"
+      }
+    }
+  ]
+  
